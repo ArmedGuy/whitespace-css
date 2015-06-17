@@ -3,12 +3,19 @@ html {
   background-color: #eeeeee;
   font-family: "Helvetica Neue", Arial;
 }
+a {
+  color: #444444;
+}
+a:hover {
+  color: #333333;
+}
 .invert {
   color: #eeeeee;
   background-color: #222222;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300 !important;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 h1 {
   font-size: 500%;
@@ -30,6 +37,6 @@ code {
   font-size: 70%;
   display: block;
   padding: 10px;
-  background-color: #dddddd;
+  background-color: #444444;
   color: tomato;
 }
