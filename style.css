@@ -1,0 +1,35 @@
+html {
+  color: #222222;
+  background-color: #eeeeee;
+  font-family: "Helvetica Neue", Arial;
+}
+.invert {
+  color: #eeeeee;
+  background-color: #222222;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300 !important;
+}
+h1 {
+  font-size: 500%;
+}
+h2 {
+  font-size: 300%;
+}
+p {
+  font-size: 250%;
+}
+.mid {
+  text-align: center;
+}
+.container {
+  width: 1050px;
+  margin: 0px auto !important;
+}
+code {
+  font-size: 70%;
+  display: block;
+  padding: 10px;
+  background-color: #dddddd;
+  color: tomato;
+}
